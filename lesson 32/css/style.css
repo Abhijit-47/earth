@@ -1,0 +1,152 @@
+/* background image  */
+.home-bg-img {
+  background-image: url(/images/Banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-footer-bg-img {
+  background-image: url(/images/Call-to-action.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-bg-img {
+  background-image: url(/images/About-banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-footer-bg-img {
+  background-image: url(/images/Talk-to-us.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.services-bg-img {
+  background-image: url(/images/Call-to-action.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-bg-img {
+  background-image: url(/images/Contact-Banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* background image  */
+
+/* background color  */
+
+.bg-green {
+  --bs-bg-opacity: 1;
+  background-color: #74a84a;
+}
+
+/* background color  */
+
+/* text color  */
+.text-darkgreen {
+  color: rgb(44, 84, 29);
+}
+/* text color  */
+
+/* button color  */
+.btn-green {
+  --bs-btn-color: #fff;
+  background-color: #74a84a;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #3c6727;
+  --bs-btn-hover-border-color: #146c43;
+  --bs-btn-focus-shadow-rgb: 60, 153, 110;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #146c43;
+  --bs-btn-active-border-color: #13653f;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #198754;
+  --bs-btn-disabled-border-color: #198754;
+}
+/* button color  */
+
+/* height */
+.vh-60 {
+  height: 60vh;
+}
+.vh-80 {
+  height: 80vh;
+}
+.vh-90 {
+  height: 90vh;
+}
+/* height */
+/* letter spacing  */
+.letter-space-1 {
+  letter-spacing: 1rem;
+}
+.letter-space-2 {
+  letter-spacing: 0.6rem;
+}
+/* letter spacing  */
+/* word spacing  */
+
+.word-spacing {
+  word-spacing: 1rem;
+}
+
+/* word spacing  */
+
+/* font family  */
+.f-f-roboto {
+  font-family: Roboto, sans-serif;
+}
+.f-f-jost {
+  font-family: Jost, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* font family  */
+
+/* padding */
+.py-7 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+/* padding */
+/* margin  */
+.my-6 {
+  margin-top: 7rem !important;
+  margin-bottom: 7rem !important;
+}
+/* margin  */
+.rounded-circle-icon {
+  border: 2px solid #74a84a;
+  height: 3.6rem;
+  width: 3.6rem;
+  border-radius: 50%;
+}
+
+
+.bb{
+  border-bottom: red;
+  border-right: red;
+  
+border-width: 2px;
+border-style: solid;
+}
+.bb:focus{
+  border: red;
+
+  /* background-color: #13653f; */
+border-width: 20px;
+border-style: solid;
+}
